@@ -54,12 +54,11 @@
         android:layout_marginEnd="319dp"
         android:layout_marginRight="319dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/textview"
+        android:text="@string/name"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:text="Name" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
@@ -69,11 +68,12 @@
         android:layout_marginLeft="29dp"
         android:layout_marginEnd="296dp"
         android:layout_marginRight="296dp"
+        android:layout_marginBottom="10dp"
         android:text="@string/textview"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="282dp"
         tools:text="Birthday" />
 
     <TextView
@@ -82,14 +82,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="29dp"
         android:layout_marginLeft="29dp"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="255dp"
         android:layout_marginRight="255dp"
+        android:layout_marginBottom="375dp"
         android:text="@string/textview"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
         tools:text="Date Joined" />
 
     <Button
